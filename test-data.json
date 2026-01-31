@@ -1,0 +1,42 @@
+{
+  "positiveTests": [
+    {
+      "id": "Pos_Fun_0001",
+      "input": "oyaata kohomadha?",
+      "expected": "ඔයාට කොහොමද?",
+      "category": "greeting"
+    },
+    {
+      "id": "Pos_Fun_0002",
+      "input": "machan mata adha meeting ekee Zoom link eka email ekak vidhihata evanna puLuvandha? Please send it before 3pm. Mama office yanna kalin check karanna oonea. Email ekak evanna amaarunam WhatsApp msg ekak dhaapan. Thx!",
+      "expected": "මචන් මට අද meeting එකේ Zoom link එක email එකක් විදිහට එවන්න පුළුවන්ද? Please send it before 3pm. මම office යන්න කලින් check කරන්න ඕනේ. Email එකක් එවන්න අමාරුනම් WhatsApp ම්ස්ග් එකක් දාපන්. ථx!!",
+      "category": "mixed"
+    },
+    {
+      "id": "Pos_Fun_0003",
+      "input": "mata help ekak karanna puLuvandha?",
+      "expected": "මට help එකක් කරන්න පුළුවන්ද?",
+      "category": "request"
+    }
+  ],
+  "negativeTests": [
+    {
+      "id": "Neg_Fun_0001",
+      "input": "mamagedharayanavaa",
+      "description": "Joined words without spaces"
+    },
+    {
+      "id": "Neg_Fun_0002",
+      "input": "mama gdhara yanavaa",
+      "description": "Typo in word"
+    }
+  ],
+  "uiTests": [
+    {
+      "id": "Pos_UI_0001",
+      "input": "man gedhara yanavaa",
+      "expected": "මන් ගෙදර යනවා",
+      "description": "Real-time output updates"
+    }
+  ]
+}
