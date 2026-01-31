@@ -278,17 +278,3 @@ The selectors in `translator.page.js` are designed with multiple fallbacks. If t
 6. ✅ 1 UI test case
 7. ✅ Excel file with test case documentation
 
-## Contact Information
-For any questions or issues:
-- **Student**: IT23635302
-- **Course**: IT3040 - ITPM
-- **Semester**: 1
-
-## License
-This project is created for academic purposes as part of IT3040 - ITPM Assignment 1.
-
----
-
-**Last Updated**: January 2026
-**Playwright Version**: 1.40.0
-**Node Version**: 16+
